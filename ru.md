@@ -73,13 +73,13 @@
 
  Замените **"YOUR_BDATE_HERE"** на корректную дату рождения в формате ISO 8601 (YYYY-MM-DD). Для того, чтобы получить дату 20 лет назад, нужно использовать Pre-request Script в Postman. Перейдите на вкладку **“Scripts”**, **"Pre-request Script"** и вставьте следующий JavaScript код:      
          
-   {
-   let today = new Date();
-   let pastDate = new Date();
-   pastDate.setFullYear(today.getFullYear() - 20);
-   let formattedDate = pastDate.toISOString().slice(0, 10);
-   pm.environment.set("pastDate", formattedDate);
-   }      
+      {
+      let today = new Date();
+      let pastDate = new Date();
+      pastDate.setFullYear(today.getFullYear() - 20);
+      let formattedDate = pastDate.toISOString().slice(0, 10);
+      pm.environment.set("pastDate", formattedDate);
+       }      
    
 ![7](https://github.com/user-attachments/assets/2f117dae-f978-4217-a6a7-c48eb7206fc6)
 
@@ -90,33 +90,33 @@
 6. Дополните запрос другими данными о профиле клиента.
 Запрос будет выглядеть так (можно скопировать его и вставить в поле **Body**):
 
-   {
-  "token": "c7f55f8f24204b9f91bfaaedda052e49",  
-  "db_id": 1,  
-  "matching": "email",  
-  "email": "john@example.com",  
-  "skip_triggers": true,  
-  "skip_invalid_subscriptions": true,
-  "detect_geo": true,  
-  "data": {  
-    "_fname": "John",  
-    "_lname": "Doe",  
-    "_bdate": "{{pastDate}}T21:00:00Z",   
-    "_sex": 0,  
-    "_regdate": "2024-10-27T10:00:00Z",  
-    "_regip": "192.168.1.1",  
-    "_ip": "192.168.1.1",  
-    "_tz": "Europe/Moscow",  
-    "_postal_code": "12345",  
-    "_os": "Windows 10",  
-    "_browser": "Chrome",  
-    "_vendor": "form_#31",  
-    "phones": ["+79000000000"],  
-    "subscriptions": [  
-    {  
-        "channel": "email",  
-        "email": "john@example.com",  
-        "resource_id": 1,  
+        {
+       "token": "c7f55f8f24204b9f91bfaaedda052e49",  
+      "db_id": 1,  
+      "matching": "email",  
+      "email": "john@example.com",  
+      "skip_triggers": true,  
+      "skip_invalid_subscriptions": true,
+      "detect_geo": true,  
+      "data": {  
+            "_fname": "John",  
+            "_lname": "Doe",  
+            "_bdate": "{{pastDate}}T21:00:00Z",   
+            "_sex": 0,  
+            "_regdate": "2024-10-27T10:00:00Z",  
+            "_regip": "192.168.1.1",  
+            "_ip": "192.168.1.1",  
+            "_tz": "Europe/Moscow",  
+            "_postal_code": "12345",  
+            "_os": "Windows 10",  
+            "_browser": "Chrome",  
+            "_vendor": "form_#31",  
+            "phones": ["+79000000000"],  
+            "subscriptions": [  
+                        {  
+                        "channel": "email",  
+                        "email": "john@example.com",  
+                        "resource_id": 1,  
         "custom_fields": {  
         "_browser_name": "Chrome",  
         "_device_type": "web"  
