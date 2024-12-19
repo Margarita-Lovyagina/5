@@ -190,12 +190,12 @@
 В поле **“Request URL”** введите API URL: https://demo.altcraft.com/api/v1.1/profiles/get
 В поле **“Body”**, **“raw”** вставьте запрос:
       
-   {  
-    "token": "c7f55f8f24204b9f91bfaaedda052e49",  
-    "db_id": 1,  
-    "matching": "profile_id",  
-    "profile_id": "675f30d95ec2d7d61fd01e6a"  
-    }        
+       {  
+        "token": "c7f55f8f24204b9f91bfaaedda052e49",  
+        "db_id": 1,  
+        "matching": "profile_id",  
+        "profile_id": "675f30d95ec2d7d61fd01e6a"  
+        }        
     
 Вам нужно будет найти ID импортированного профиля в ответе на предыдущий POST запрос. Затем замените token, db_id и profile_id на фактический ID профиля.
 
@@ -207,10 +207,5 @@
 
 ![14](https://github.com/user-attachments/assets/8ac5ead2-0f34-421d-add3-1417738baaaa)
 
-## Возвращаемые параметры
 
-Параметр	Тип	Описание
-error	int	Код ошибки
-error_text	string	Текст ошибки
-profile_id	string	Идентификатор профиля
 
