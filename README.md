@@ -15,7 +15,8 @@
 ![2](https://github.com/user-attachments/assets/59be985d-23bf-4829-b3cf-e08609ef4e42)
 
 4. Заполните параметры запроса
-В поле **“Request URL”** введите API URL: https://demo.altcraft.com/api/v1.1/profiles/import
+В поле **“Request URL”** введите API URL:
+      https://demo.altcraft.com/api/v1.1/profiles/import
 Выберите метод **"POST"** для вашего запроса.
 
 ![3](https://github.com/user-attachments/assets/856b3208-8c2c-413d-810a-df26325c772c)
@@ -32,7 +33,7 @@
 
 ![5](https://github.com/user-attachments/assets/ae0cb126-4238-4cdb-aa63-0d052de274e8)
  
-4. Перейдем к написанию запроса. 
+ ## Написание запроса
 Для этого вернитесь на вкладку **“Body”**, **“raw”**. Предположим, вы хотите импортировать профиль клиента посредством его email-адреса. Тогда в поле matching следует указать email. Также известны:
 
 •	**token** - c7f55f8f24204b9f91bfaaedda052e49,  
@@ -189,7 +190,7 @@
 Проверка импорта (Необязательный шаг)
 Создайте **“New Request”** так же как это было описано выше. Используйте метод Post (выберите слева в выпадающем меню). 
 В поле **“Request URL”** введите API URL:  
-    https://demo.altcraft.com/api/v1.1/profiles/get     
+      https://demo.altcraft.com/api/v1.1/profiles/get     
     В поле **“Body”**, **“raw”** вставьте запрос:
       
        {  
