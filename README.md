@@ -188,7 +188,7 @@
 Если у вас не получилось самостоятельно устранить ошибку, передайте код и описание ошибки в службу поддержки Altcraft.
 Проверка импорта (Необязательный шаг)
 Создайте **“New Request”** так же как это было описано выше. Используйте метод Post (выберите слева в выпадающем меню). 
-В поле **“Request URL”** введите API URL: https://demo.altcraft.com/api/v1.1/profiles/get
+В поле **“Request URL”** введите API URL:     https://demo.altcraft.com/api/v1.1/profiles/get
 В поле **“Body”**, **“raw”** вставьте запрос:
       
        {  
@@ -207,3 +207,4 @@
 ![13](https://github.com/user-attachments/assets/dbfdbb1d-5632-4bf9-ae6d-e41e09fe1fd6)
 
 ![14](https://github.com/user-attachments/assets/8ac5ead2-0f34-421d-add3-1417738baaaa)
+
