@@ -113,48 +113,49 @@
             "_vendor": "form_#31",  
             "phones": ["+79000000000"],  
             "subscriptions": [  
-                        {  
-                        "channel": "email",  
-                        "email": "john@example.com",  
-                        "resource_id": 1,  
-        "custom_fields": {  
-        "_browser_name": "Chrome",  
-        "_device_type": "web"  
-        }  
-        }   
-         "cats": [  
-         "category_1",  
-         "category_2"  
-         ]  
-         },   
-      {  
-        "channel": "sms",  
-        "phone": "+79000000000",  
-        "resource_id": 2  
-      },  
-      {  
-        "channel": "push",  
-        "subscription_id": "abcdefghijklmnqrstuvwxyz",  
-        "provider": "android-firebase",  
-        "resource_id": 2  
-      },  
-      {  
-        "channel": "telegram_bot",  
-        "cc_data": {}  
-      },  
-      {  
-        "channel": "whatsapp",  
-        "cc_data": {  
-            "phone": "+79000000000"}  
-      },  
-      {  
-        "channel": "viber",  
-        "cc_data": {  
-            "phone": "+79000000000"}  
-      }  
-    ]  
-  }  
-}
+               {  
+                  "channel": "email",  
+                  "email": "john@example.com",  
+                  "resource_id": 1,  
+                  "custom_fields":
+                         {  
+                        "_browser_name": "Chrome",  
+                        "_device_type": "web"  
+                           }  
+                }   
+                 "cats": [  
+                        "category_1",  
+                        "category_2"  
+                          ]  
+                },   
+                {  
+                 "channel": "sms",  
+                 "phone": "+79000000000",  
+                 "resource_id": 2  
+               },  
+               {  
+              "channel": "push",  
+              "subscription_id": "abcdefghijklmnqrstuvwxyz",  
+              "provider": "android-firebase",  
+              "resource_id": 2  
+                },  
+                {  
+               "channel": "telegram_bot",  
+               "cc_data": {}  
+                 },  
+                 {  
+                "channel": "whatsapp",  
+               "cc_data": {  
+               "phone": "+79000000000"}  
+                 },  
+                 {  
+                "channel": "viber",  
+                "cc_data": {  
+                "phone": "+79000000000"}  
+                  }  
+                ]  
+              }  
+            }
       
  
 Новые поля:  
