@@ -15,7 +15,7 @@
 
 ![2](https://github.com/user-attachments/assets/59be985d-23bf-4829-b3cf-e08609ef4e42)
 
-4. Заполните параметры запроса
+Заполните параметры запроса
 В поле **“Request URL”** введите API URL:<https://demo.altcraft.com/api/v1.1/profiles/import>
 
 Выберите метод **"POST"** для вашего запроса.
