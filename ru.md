@@ -91,14 +91,14 @@
 Запрос будет выглядеть так (можно скопировать его и вставить в поле **Body**):
 
         {
-       "token": "c7f55f8f24204b9f91bfaaedda052e49",  
-      "db_id": 1,  
-      "matching": "email",  
-      "email": "john@example.com",  
-      "skip_triggers": true,  
-      "skip_invalid_subscriptions": true,
-      "detect_geo": true,  
-      "data": {  
+        "token": "c7f55f8f24204b9f91bfaaedda052e49",  
+        "db_id": 1,  
+        "matching": "email",  
+        "email": "john@example.com",  
+        "skip_triggers": true,  
+        "skip_invalid_subscriptions": true,
+        "detect_geo": true,  
+        "data": {  
             "_fname": "John",  
             "_lname": "Doe",  
             "_bdate": "{{pastDate}}T21:00:00Z",   
