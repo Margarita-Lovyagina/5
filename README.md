@@ -188,12 +188,13 @@
  ![11](https://github.com/user-attachments/assets/c54d8859-c621-40b4-b57a-e53699668f3a)
 
 Если у вас не получилось самостоятельно устранить ошибку, передайте код и описание ошибки в службу поддержки Altcraft: 
-(https://altcraft.com/ru/help-center)  
+(https://altcraft.com/ru/help-center).  
  
 Проверка импорта (Необязательный шаг)
 Создайте **“New Request”** так же как это было описано выше. Используйте метод Post (выберите слева в выпадающем меню). 
 В поле **“Request URL”** введите API URL:  
-(https://demo.altcraft.com/api/v1.1/profiles/get)       
+(https://demo.altcraft.com/api/v1.1/profiles/get).  
+
     В поле **“Body”**, **“raw”** вставьте запрос:
       
        {  
